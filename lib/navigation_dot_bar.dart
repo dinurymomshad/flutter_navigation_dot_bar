@@ -42,6 +42,7 @@ class _BottomNavigationDotBarState extends State<BottomNavigationDotBar> {
         margin: EdgeInsets.fromLTRB(30, 0, 30, 10),
         child: Material(
             elevation: 5,
+            color: Colors.transparent,
             borderRadius: BorderRadius.circular(20),
             child: Container(
               padding: EdgeInsets.symmetric(vertical: 12),
