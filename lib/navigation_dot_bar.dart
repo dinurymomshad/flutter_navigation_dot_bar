@@ -38,7 +38,7 @@ class _BottomNavigationDotBarState extends State<BottomNavigationDotBar> {
 
   @override
   Widget build(BuildContext context) => Container(
-        padding: EdgeInsets.fromLTRB(10, 0, 10, 10),
+        padding: EdgeInsets.fromLTRB(20, 0, 20, 10),
         child: Material(
             elevation: 5,
             borderRadius: BorderRadius.circular(20),
