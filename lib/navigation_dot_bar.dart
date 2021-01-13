@@ -41,24 +41,24 @@ class _BottomNavigationDotBarState extends State<BottomNavigationDotBar> {
         padding: EdgeInsets.fromLTRB(10, 0, 10, 10),
         child: Material(
             elevation: 5,
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(30),
             child: Container(
-              padding: EdgeInsets.symmetric(vertical: 12),
-              child: Stack(
-                key: _keyBottomBar,
-                children: <Widget>[
-                  Padding(
-                    padding: EdgeInsets.only(bottom: 12),
-                    child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: _createNavigationIconButtonList(widget.items.asMap())),
-                  ),
-                  AnimatedPositioned(
+              //padding: EdgeInsets.symmetric(vertical: 12),
+              //child: //Stack(
+              //key: _keyBottomBar,
+              //children: <Widget>[
+              //Padding(
+              //padding: EdgeInsets.only(bottom: 12),
+              child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: _createNavigationIconButtonList(widget.items.asMap())),
+              //),
+              /* AnimatedPositioned(
                       child: CircleAvatar(radius: 2.5, backgroundColor: _activeColor),
                       duration: Duration(milliseconds: 400),
                       curve: Curves.fastOutSlowIn,
                       left: _positionLeftIndicatorDot,
-                      bottom: 0),
-                ],
-              ),
+                      bottom: 0), */
+              //],
+              //),
             )),
       );
 
