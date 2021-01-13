@@ -49,12 +49,12 @@ class _BottomNavigationDotBarState extends State<BottomNavigationDotBar> {
                 children: <Widget>[
                   Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: _createNavigationIconButtonList(widget.items.asMap())),
                   AnimatedPositioned(
-                      child: CircleAvatar(radius: 2.5, backgroundColor: _activeColor),
-                      duration: Duration(milliseconds: 400),
-                      curve: Curves.fastOutSlowIn,
-                      left: _positionLeftIndicatorDot,
-                      top: 0,
-                      right: 0),
+                    child: CircleAvatar(radius: 2.5, backgroundColor: _activeColor),
+                    duration: Duration(milliseconds: 400),
+                    curve: Curves.fastOutSlowIn,
+                    left: _positionLeftIndicatorDot,
+                    top: 0,
+                  ),
                 ],
               ),
             )),
