@@ -54,7 +54,7 @@ class _BottomNavigationDotBarState extends State<BottomNavigationDotBar> {
                     curve: Curves.fastOutSlowIn,
                     left: _positionLeftIndicatorDot,
                     top: 0,
-                    right: 1,
+                    right: 20,
                   ),
                 ],
               ),
