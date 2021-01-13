@@ -47,10 +47,8 @@ class _BottomNavigationDotBarState extends State<BottomNavigationDotBar> {
               child: Stack(
                 key: _keyBottomBar,
                 children: <Widget>[
-                  Padding(
-                    padding: EdgeInsets.only(bottom: 8),
-                    child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: _createNavigationIconButtonList(widget.items.asMap())),
-                  ),
+                  Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: _createNavigationIconButtonList(widget.items.asMap())),
+
                   /* AnimatedPositioned(
                       child: CircleAvatar(radius: 2.5, backgroundColor: _activeColor),
                       duration: Duration(milliseconds: 400),
